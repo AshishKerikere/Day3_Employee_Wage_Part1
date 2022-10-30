@@ -1,3 +1,4 @@
+package EmployeeWageComputation;
 public class employee_Hours {
     public static void main(String[] args){
 
@@ -12,7 +13,7 @@ public class employee_Hours {
         }
         wage = hrs*20;
 
-        System.out.println("the wage recieved is" +wage);
+        System.out.println("the wage recieved is " +wage);
     }
 
      static int hours(int a){
